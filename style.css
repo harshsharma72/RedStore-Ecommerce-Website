@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&family=Poppins:wght@300;400;600&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 10vh;
+    max-width: 1265px;
+    width: 100%;
+    margin: auto;
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+p{
+    color: #555;
+}
+.navbar img{
+    width: 125px;
+}
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.list i{
+    align-self: center;
+    margin-left: 15px;
+    font-size: 22px
+}
+.navbar ul li a{
+    text-decoration: none;
+    margin-left: 15px;
+    color: #555;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 100px;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 60px;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.btn:hover{
+    background: #563434;
+}
+.upper{
+    background: radial-gradient(#fff, #ffd6d6);
+}
+.catagories{
+    margin: 10px;
+}
+.col-3{
+    flex-basis: 30%;
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.col-3 img{
+    width: 100%; 
+}
+.small-container{
+    max-width: 1300px;
+    margin: 10px auto;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition: transform 0.3s;
+}
+.col-4 img{
+    width: 100%;
+}
+.title{
+    text-align: center;
+    margin: 0 auto -60px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+.title::after{
+    content: "";
+    background-color: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color: #555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px; 
+}
+.rating i{
+    color: #ff523b;
+}
+.col-4:hover{
+    transform: translateY(-5px);
+}
+/* ----offer---- */
+.offer{
+    background: radial-gradient(#fff, #ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
+.col-2 img{
+    padding: 30px;
+}
+small{
+    color: #555;
+}
+/* ----Testimonial---- */
+.testimonial .col-3{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.testimonial img{
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.testimonial .col-3:hover{
+    transform: translateY(-10px);
+}
+.fa.fa-quote-left{
+    font-size: 34px;
+    color: #ff523b;
+}
+.col-3 p{
+    font-size: 12px;
+    color: #777;
+    margin: 12px 0;
+}
+.testimonial .col-3 h3{
+    color: #555;
+    font-size: 16px;
+    font-weight: 600;
+}
+/* ----- Brands ----- */
+.brands{
+    margin: 100px auto;
+}
+.col-5{
+    width: 160px;
+}
+.brands .col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+    
+}
+.brands .col-5 img:hover{
+    filter: grayscale(0);
+}
+/* ----footer---- */
+.footer{
+    background-color: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 16px 0 20px;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+.footer ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+hr{
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 100px;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+}
+#red{
+    font-size: 20px;
+    color: red;
+}
